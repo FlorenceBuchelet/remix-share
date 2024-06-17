@@ -1,4 +1,6 @@
-import Logo from "../../atoms/Titles/Logo/Logo";
+import Logins from "../../atoms/Logins/Logins";
+import Logo from "../../atoms/Logo/Logo";
+import Menu from "../../atoms/Menu/Menu";
 import MainTitle from "../../atoms/Titles/Main/MainTitle";
 import "./Navbar.scss";
 
@@ -8,7 +10,11 @@ function Navbar() {
     return (
         <nav className="nav">
             <Logo />
-            <MainTitle title="Home" />
+            <MainTitle title="Lorem Ipsum" />
+            <span className="nav nav__sub">
+                <Logins />
+                <Menu />
+            </span>
         </nav>
     );
 }
