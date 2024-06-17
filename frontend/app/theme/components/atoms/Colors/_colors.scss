@@ -1,0 +1,67 @@
+/* Colors */
+$neutral-050: #1D1D1B;
+$neutral-100: #2B2C2D;
+$neutral-200: #393B3F;
+$neutral-300: #464A51;
+$neutral-400: #545963;
+$neutral-500: #6F737A;
+$neutral-600: #898C92;
+$neutral-700: #A3A5A9;
+$neutral-800: #BEBFC0;
+$neutral-900: #E9E7E2;
+$neutral-950: #F4F3F0;
+$neutral-1000: #FFFFFF;
+
+$red-050: #230606;
+$red-100: #460C0C;
+$red-200: #691213;
+$red-300: #8D1719;
+$red-400: #B01D20;
+$red-500: #D32326;
+$red: red;
+$red-600: #E1474A;
+$red-700: #E87375;
+$red-800: #EF9FA0;
+$red-900: #F6CBCB;
+$red-950: #FCEEEE;
+
+
+/* Variables */
+$background: $neutral-100;
+
+
+/* All colors available as CSS variables */
+:root {
+    --neutral-050: #{$neutral-050};
+    --neutral-100: #{$neutral-100};
+    --neutral-200: #{$neutral-200};
+    --neutral-300: #{$neutral-300};
+    --neutral-400: #{$neutral-400};
+    --neutral-500: #{$neutral-500};
+    --neutral-600: #{$neutral-600};
+    --neutral-700: #{$neutral-700};
+    --neutral-800: #{$neutral-800};
+    --neutral-900: #{$neutral-900};
+    --neutral-950: #{$neutral-950};
+
+
+    --red-050: #{$red-050};
+    --red-100: #{$red-100};
+    --red-200: #{$red-200};
+    --red-300: #{$red-300};
+    --red-400: #{$red-400};
+    --red-500: #{$red-500};
+    --red-600: #{$red-600};
+    --red-700: #{$red-700};
+    --red-800: #{$red-800};
+    --red-900: #{$red-900};
+    --red-950: #{$red-950};
+    --red: #{$red};
+
+}
+
+/* Common elements */
+
+body {
+    background: $background;
+}

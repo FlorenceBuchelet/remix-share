@@ -1,3 +1,6 @@
+import "./theme/components/atoms/Colors/_colors.scss";
+import "./theme/components/atoms/Typography/_typography.scss";
+
 import {
   Links,
   Meta,
